@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import CTAButton from "../clientComponents/CTAButton";
-import { BG_IMG_WHITE } from "@/constant";
+import { BG_IMG_WHITE } from "@/Constant/indexFile";
 
 const About = () => {
   return (

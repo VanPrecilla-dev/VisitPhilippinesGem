@@ -2,7 +2,7 @@ import React from "react";
 import CTAButton from "../clientComponents/CTAButton";
 import Image from "next/image";
 
-import { IMG_SRC_HOME, BG_IMG_ISLAND_BEACH } from "@/constant";
+import { IMG_SRC_HOME, BG_IMG_ISLAND_BEACH } from "@/Constant/indexFile";
 
 const Home = () => {
 

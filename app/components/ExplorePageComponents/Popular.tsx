@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import CTAButton from '../../clientComponents/CTAButton'
-import { IMG_SRC_EXPLORE_MOST } from '@/constant'
+import { IMG_SRC_EXPLORE_MOST } from '@/Constant/indexFile'
 
 const Popular = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneSquareAlt } from "react-icons/fa";
-import { BG_IMG_WHITE } from "@/constant";
+import { BG_IMG_WHITE } from "@/Constant/indexFile";
 import Footer from "./Footer";
 import CTAButton from "../clientComponents/CTAButton";
 

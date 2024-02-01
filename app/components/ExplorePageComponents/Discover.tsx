@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { IMG_SRC_EXPLORE_DISCOVER } from '@/constant'
+import { IMG_SRC_EXPLORE_DISCOVER } from '@/Constant/indexFile'
 import CTAButton from '../../clientComponents/CTAButton'
 
 const Discover = () => {

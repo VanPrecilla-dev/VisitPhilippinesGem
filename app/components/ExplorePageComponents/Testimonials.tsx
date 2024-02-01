@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import CTAButton from '../../clientComponents/CTAButton'
-import { IMG_SRC_EXPLORE_TESTIMONIALS } from '@/constant'
+import { IMG_SRC_EXPLORE_TESTIMONIALS } from '@/Constant/indexFile'
 
 const Testimonials = () => {
   return (

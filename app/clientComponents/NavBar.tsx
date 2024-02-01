@@ -1,5 +1,5 @@
 "use client";
-import { NAV_LINKS } from "@/constant";
+import { NAV_LINKS } from "@/Constant/indexFile";
 import React, { useState } from "react";
 
 import { Link } from "react-scroll";

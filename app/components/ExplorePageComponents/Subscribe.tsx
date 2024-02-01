@@ -1,6 +1,6 @@
 import React from "react";
 import SubsButton from "../../clientComponents/SubsButton";
-import { BG_IMG_ISLAND_BEACH } from "@/constant";
+import { BG_IMG_ISLAND_BEACH } from "@/Constant/indexFile";
 
 const Subscribe = () => {
   return (
