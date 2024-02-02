@@ -17,11 +17,11 @@ const Subscribe = () => {
             </p>
           </div>
 
-          <form className="flex flex-initial w-full lg:w-[50%] flex-col item-center text-center justify-center  px-10  lg:justify-between tracking-widest  lg:regular-16 lg:tracking-[5px] text-[#236868]">
+          <form className="flex flex-initial w-full lg:w-[50%] flex-col item-center   text-center justify-center  lg:px-10  lg:justify-between tracking-widest  lg:regular-16 lg:tracking-[5px] text-[#236868]">
             <input
               type="email"
               placeholder="Type your email here. ex: juan@gmail.com"
-              className="regular-20 p-5 w-full text-center shadow appearance-none border rounded-2xl"
+              className="regular-16 lg:regular-20 p-5 w-full overflow-y-hidden text-center break-words text-wrap shadow appearance-none  border rounded-2xl"
             />{" "}
             <SubsButton />
           </form>

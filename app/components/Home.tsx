@@ -18,7 +18,7 @@ const Home = () => {
             <h1 className="lg:text-6xl text-4xl text-white text-center my-10 tracking-widest px-auto">
               Welcome to Your Gateway to Philippine Wonders!
             </h1>
-            <p className="lg:regular-24 regular-20 text-white  tracking-widest mx-20 text-justify ">
+            <p className="lg:regular-24 regular-16 text-white text-balance tracking-widest px-2 lg:mx-20 text-justify ">
               Discover the hidden gems of the Philippines – a tropical paradise
               waiting to be explored. From pristine beaches to vibrant
               festivals, your adventure begins here.

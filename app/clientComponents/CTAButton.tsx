@@ -27,7 +27,7 @@ const CTAButton = (props: ButtonProps) => {
   return (
     <>
       <button
-        className={`flexCenter gap-3 rounded-full border w-${w} p-5 px-16 shadow hover:bg-[#4A756E] bg-[#9CA48E] `}
+        className={`flexCenter gap-3 rounded-full text-wrap border w-${w} p-5 px-16 shadow hover:bg-[#4A756E] bg-[#9CA48E] `}
         type={type}
         onClick={() => btnClick()}
       >

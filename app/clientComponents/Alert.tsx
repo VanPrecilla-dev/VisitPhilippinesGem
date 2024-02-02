@@ -17,7 +17,7 @@ const Alert = () => {
             This button will act as placeholder only as this page only show
             Single Landing Page
           </p>
-          <p className="text-sm">
+          <p className="regular-14 lg:regular-16">
             You should be redirected to different page. Click the button again
             to close this alert
           </p>

@@ -15,7 +15,7 @@ const Testimonials = () => {
               {IMG_SRC_EXPLORE_TESTIMONIALS.map((item, key) => (
                 <figure
                   key={key}
-                  className="flex  flex-initial h-96 flex-col lg:mx-6 px-5 w-full justify-center items-center text-center bg-[#153F58] rounded-5xl hover:scale-125"
+                  className="flex  flex-initial h-96 flex-col lg:mx-6 px-5 w-full justify-center items-center overflow-y-auto hide-scrollbar  text-wrap text-center bg-[#153F58] rounded-5xl lg:hover:scale-125"
                 >
                   <Image
                     src={item.src}

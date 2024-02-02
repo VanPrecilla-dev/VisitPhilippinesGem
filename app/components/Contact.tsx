@@ -10,7 +10,7 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="flex-col flexCenter overflow-hidden py-24"
+        className="flex-col flexCenter overflow-hidden lg:py-24 py-10"
         style={BG_IMG_WHITE}
       >
         <section className="max-container padding-container relative w-full flex flex-col lg:gap-5 justify-center p-10">
@@ -18,8 +18,8 @@ const Contact = () => {
             Get in Touch with US
           </h1>
 
-          <div className="flex flex-1 flex-col gap-2 lg:gap-5 justify-between mx-16 lg:flex-row">
-            <aside className="flex flex-initial lg:w-[50%] gap-5 flex-col m-5 regular-24 text-justify text-[#153F58]">
+          <div className="flex flex-1 flex-col gap-2 lg:gap-5 justify-between lg:mx-16 lg:flex-row">
+            <aside className="flex flex-initial lg:w-[50%] w-full gap-5 flex-col px-5 lg:m-5 regular-16 lg:regular-24 text-justify  text-wrap text-[#153F58]">
               <p>
                 Have questions, suggestions, or need assistance planning your
                 trip?
@@ -34,7 +34,7 @@ const Contact = () => {
                   <strong>Our Contacts:</strong>
                 </h6>
 
-                <div className="flex flex-col lg:flex-row gap-3 items-center ">
+                <div className="flex flex-col lg:flex-row gap-3 items-center text-wrap break-words regular-16 lg:regular-24  ">
                   <span>
                     <MdEmail
                       className="w-10 "
@@ -69,26 +69,26 @@ const Contact = () => {
                 </div>
               </div>
             </aside>
-            <form className="flex flex-initial gap-5 lg:w-[50%] flex-col m-5  rounded-5xl p-5 border-2 border-[#153F58]">
+            <form className="flex flex-initial gap-5 lg:w-[50%] flex-col lg:m-5 text-wrap rounded-5xl p-5 border-2 border-[#153F58]">
               <input
                 type="email"
                 name="email"
                 placeholder="Type your email here. ex: juan@gmail.com"
-                className="regular-16 lg:regular-24 p-2 w-full text-start shadow appearance-none border rounded-2xl"
+                className="regular-16 lg:regular-24 text-wrap p-2 w-full text-start shadow appearance-none border rounded-2xl"
               />
               <input
                 type="text"
                 name="subject"
                 placeholder="Subject of your Email ex: Inquiry"
-                className=" regular-16 lg:regular-24 p-2 w-full text-start shadow appearance-none border rounded-2xl"
+                className=" regular-16 lg:regular-24 text-wrap p-2 w-full text-start shadow appearance-none border rounded-2xl"
               />
               <textarea
                 placeholder="Enter your message here"
                 rows={5}
                 cols={10}
-                className=" regular-16 lg:regular-24 p-2 w-full text-start shadow appearance-none border rounded-2xl"
+                className=" regular-16 lg:regular-24 text-wrap p-2 w-full text-start shadow appearance-none border rounded-2xl"
               />
-              <CTAButton type="button" title="Send Message" />
+              <CTAButton type="button" title="Send Message" w={60} />
               {/*  CTAButton should have type="submit" but since this is only placeholder, to avoid reloading the page, i just set it to button type */}
             </form>
           </div>

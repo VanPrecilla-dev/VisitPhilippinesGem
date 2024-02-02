@@ -25,7 +25,7 @@ const Discover = () => {
                     height={300}
                     className="flex-initial h-[70%] rounded-3xl "
                   />
-                  <figcaption className="flex text-justify regular-24 text-white flex-initial h-[30%]">
+                  <figcaption className="flex text-justify regular-16 lg:regular-24 text-white flex-initial h-[30%]">
                     {item.caption}
                   </figcaption>
                 </figure>
