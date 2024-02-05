@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="max-container padding-container relative w-full flex flex-col gap-5 lg:flex-row lg:gap-5 items-center text-center justify-center">
             <div className='flex flex-col mx-auto gap-2'>
                 <p>©2024 All Rights Reserved, VisitPhilippineGem & Van</p>
-                <p>Privacy policy | Terms</p>
+                <p>Privacy policy | Terms | <a href="https://github.com/VanPrecilla-dev/VisitPhilippinesGem.git" target='_blank' rel='noopener noreferrer' className='underline'>GitHub Source Code</a> </p>
             </div>
             <div className='flex flex-row mx-auto gap-5'>
             <FaSquareFacebook style={{width: '40px', height:'40px'}}/>
